@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>React app</title>
-  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-  <script crossorigin src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-  <link rel="stylesheet" href="css/style.css">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	
+  <title>Local react</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="react/react.production.min.js"></script>
+	<script src="react/react-dom.production.min.js"></script>
+	<script src="https://unpkg.com/prop-types@15.6/prop-types.js"></script>
+	<script src="react/babel.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div id="root"></div>
-  <div id="clock"></div>
-  <script type="text/babel" src="js/main.js"></script>
+
+	<div id="mydiv"></div>
+	<div id="root"></div>
+	<span id="mydiv2"></span>
+	<div id="mydiv4"></div>
+
+	<script type="text/babel" src="js/main.js"></script>
 </body>
 </html>
